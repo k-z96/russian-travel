@@ -1,4 +1,7 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/root/root.css);
 
 /*blocks*/
 
@@ -25,11 +28,13 @@
 
 /*places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__card/places__card.css);
-@import url(../blocks/places/__card/_title/places__card_title.css);
-@import url(../blocks/places/__card/_image/places__card_image.css);
-@import url(../blocks/places/__card/_paragraphs/places__card_paragraphs.css);
-@import url(../blocks/places/__card/_link/places__card_link.css);
+
+/*place*/
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
 
 /*cover*/
 @import url(../blocks/cover/cover.css);
