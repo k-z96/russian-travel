@@ -1,0 +1,35 @@
+.cover__link{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    content:"";
+    background-color: #2A2C2F;
+    background-size: cover;
+    opacity: 0.3;
+    position: relative;
+    /*top: 0;
+    right: 0;*/
+}
+
+/*.cover__link::before{
+    content:"";
+    background-color: #2A2C2F;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: opacity 0.3 ease;
+}*/
+
+
+.cover__link:hover{
+    content:"";
+    background-color: #2A2C2F;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: 0;
+}

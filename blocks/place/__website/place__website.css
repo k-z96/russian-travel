@@ -1,0 +1,12 @@
+.place__website{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 2px;
+color: #aaa;
+max-height: 46px;
+max-width: 456px;
+margin: 0;
+}

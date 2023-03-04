@@ -1,0 +1,10 @@
+.place{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: repeat(2, max-content);
+    align-items: start;
+    column-gap: 40px;
+    row-gap: 48px;
+}
