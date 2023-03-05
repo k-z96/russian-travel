@@ -1,8 +1,8 @@
-.header{
+.header {
     display: flex;
-    margin: auto;
+    width: 1184px;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin-left: calc((100%-1184px) / 2);
+    margin-right: calc((100%-1184px) / 2);
 }

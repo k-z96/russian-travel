@@ -8,3 +8,8 @@
     color: #fff;
     text-decoration: none;
 }
+
+.header__lang-link-en:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}

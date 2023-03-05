@@ -1,6 +1,9 @@
 .footer{
-    margin: 0 48px 24px 48px;
+    padding-bottom: 24px;
+    width: 1184px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: calc((100%-1184px) / 2);
+    margin-right: calc((100%-1184px) / 2);
 }

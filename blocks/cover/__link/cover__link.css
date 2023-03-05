@@ -5,31 +5,14 @@
     height: 100%;
     text-decoration: none;
     content:"";
-    background-color: #2A2C2F;
+    background-color: hwb(216 16% 82% / 0.3);
     background-size: cover;
-    opacity: 0.3;
-    position: relative;
-    /*top: 0;
-    right: 0;*/
+    align-self: stretch;
 }
-
-/*.cover__link::before{
-    content:"";
-    background-color: #2A2C2F;
-    background-size: cover;
-    opacity: 0.3;
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transition: opacity 0.3 ease;
-}*/
-
 
 .cover__link:hover{
     content:"";
-    background-color: #2A2C2F;
+    background-color: hsla(216, 6%, 17%, 0.8);
     background-size: cover;
-    opacity: 0.8;
-    z-index: 0;
+    transition: 0.5s;
 }
