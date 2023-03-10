@@ -6,16 +6,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+
 }
 
 
-@media screen and (max-width: 1184px){
+/*@media screen and (max-width: 1184px){
     .cover{
-        /*width: 100%;
+        width: 100%;
         margin: 92px 0 92px 0;
-        height: 700px;*/
+        height: 700px;
     }
-}
+}*/
 
 @media screen and (max-width: 1024px) {
     .cover {

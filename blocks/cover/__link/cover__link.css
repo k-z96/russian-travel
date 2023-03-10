@@ -7,6 +7,8 @@
     background-color: hwb(216 16% 82% / 0.3);
     background-size: cover;
     align-self: stretch;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover__link:hover{
