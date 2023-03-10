@@ -1,4 +1,4 @@
-.place__text{
+.place__text {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -8,19 +8,14 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px){
-    .place__text{
+@media screen and (max-width: 1024px) {
+    .place__text {
         padding-bottom: 25px;
     }
 }
 
-
-@media screen and (max-width: 768px){
-    
-}
-
-@media screen and (max-width: 320px){
-    .place__text{
+@media screen and (max-width: 320px) {
+    .place__text {
         padding-bottom: 25px;
     }
 }

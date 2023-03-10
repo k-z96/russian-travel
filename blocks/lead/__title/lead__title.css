@@ -4,7 +4,7 @@
     font-size: 96px;
     line-height: 1.04;
     text-align: center;
-    width: 720px;
+    max-width: 720px;
     margin: 0;
     color: #fff;
 }
@@ -29,7 +29,7 @@
         line-height: 1;
         padding-left: calc((100% - 90%) / 2);
         padding-right: calc((100% - 90%) / 2);
-        width: 500px;
+        /*width: 500px;*/
     }
 }
 
@@ -39,7 +39,7 @@
         line-height: 1;
         padding-left: calc((100% - 90%) / 2);
         padding-right: calc((100% - 90%) / 2);
-        width: 400px;
+        /*width: 400px;*/
     }
 }
 
@@ -49,6 +49,6 @@
         line-height: 1.1;
         padding-left: calc((100% - 90%) / 2);
         padding-right: calc((100% - 90%) / 2);
-        width: 288px;
+        /*width: 288px;*/
     }
 }
