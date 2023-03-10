@@ -1,0 +1,16 @@
+.place__website-url{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+@media screen and (max-width: 768px){
+
+    .place__website-url{
+        line-height: 1;
+    }
+}

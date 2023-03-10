@@ -1,11 +1,11 @@
 .place__website{
-font-family: 'Inter', Arial, sans-serif;
+/*font-family: 'Inter', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.7;
 letter-spacing: 2px;
-color: #aaa;
+color: #aaa;*/
 max-height: 46px;
 max-width: 456px;
 margin: 0;
@@ -13,12 +13,12 @@ align-self: end;
 }
 
 
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
 
     .place__website{
         line-height: 1;
     }
-}
+}*/
 
 @media screen and (max-width: 500px){
     .place__website{
@@ -30,7 +30,6 @@ align-self: end;
     .place__website{
         align-self: start;
         max-width: 288px;
-        line-height: 1;
         padding-left: 16px;
     }
 }
