@@ -3,11 +3,34 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-line-height: 20px;
+line-height: 1.7;
 letter-spacing: 2px;
 color: #aaa;
 max-height: 46px;
 max-width: 456px;
 margin: 0;
 align-self: end;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .place__website{
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .place__website{
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__website{
+        align-self: start;
+        width: 288px;
+        line-height: 1;
+        padding-left: 16px;
+    }
 }

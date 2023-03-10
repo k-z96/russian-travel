@@ -3,10 +3,22 @@
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.5;
     color: #fff;
     list-style-type: none;
     margin: 0;
     padding: 0;
     align-self: flex-start;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 320px){
+    
 }

@@ -7,3 +7,20 @@
     color: #fff;
     margin: 0;
 }
+
+@media screen and (max-width: 1024px){
+    .place__text{
+        padding-bottom: 25px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 320px){
+    .place__text{
+        padding-bottom: 25px;
+    }
+}

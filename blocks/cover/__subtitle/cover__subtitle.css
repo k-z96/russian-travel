@@ -3,10 +3,38 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 22px;
+line-height: 1.22;
 text-align: center;
 color: #FFFFFF;
 margin: 32px 0 0 0;
 position: relative;
 z-index: 1;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 650px) {
+    .cover__subtitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cover__subtitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .cover__subtitle {}
+}
+
+@media screen and (max-width: 320px){
+    .cover__subtitle{
+        font-size: 14px;
+        line-height: 1.14;
+        margin: 16px 0 0 0;
+    }
 }

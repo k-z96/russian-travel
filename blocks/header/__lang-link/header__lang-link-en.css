@@ -13,3 +13,17 @@
     opacity: 0.8;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 768px){}
+    
+
+@media screen and (max-width: 320px){
+    .header__lang-link-en{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
