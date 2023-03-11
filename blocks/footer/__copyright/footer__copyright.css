@@ -6,6 +6,7 @@
     line-height: 1.14;
     text-align: right;
     color: #FFFFFF;
+    margin: 0;
 }
 
 
@@ -14,7 +15,7 @@
         line-height: 1;
         text-align: left;
         margin-top: 48px;
-        max-width: 186px;
+       /*max-width: 186px;*/
     }
 }
 
@@ -23,6 +24,6 @@
         line-height: 1;
         text-align: left;
         margin-top: 48px;
-        max-width: 186px;
+        /*max-width: 186px;*/
     }
 }

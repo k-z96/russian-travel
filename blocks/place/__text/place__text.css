@@ -3,14 +3,28 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 1.63;
     color: #fff;
     margin: 0;
+}
+
+.place__text:nth-child(2){
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place__text {
         padding-bottom: 25px;
+    }
+    .place__text:nth-child(2){
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place__text {
+        font-size: 16px;
+        line-height: 1.63;
     }
 }
 
@@ -19,3 +33,4 @@
         padding-bottom: 25px;
     }
 }
+

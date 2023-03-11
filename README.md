@@ -12,7 +12,7 @@
     Медиа теги для адаптивности
     Файлы по БЭМ, nested
 
-Ссылка на проект: https://k-z96.github.io/russian-travel1/
+Ссылка на проект: https://k-z96.github.io/russian-travel/
 
 Планы по доработке:
 

@@ -13,6 +13,19 @@
     .place__title {
         font-size: 42px;
         line-height: 1.1;
+        max-width: 330px;
+    }
+    .place__title:nth-child(4) {
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .place__title {
+        max-width: 460px;
+    }
+    .place__title:nth-child(4) {
+        max-width: 460px;
     }
 }
 
@@ -27,5 +40,6 @@
         font-size: 32px;
         line-height: 1.09px;
         padding-left: 16px;
+        align-self: center;
     }
 }
