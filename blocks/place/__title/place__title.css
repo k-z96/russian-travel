@@ -38,8 +38,7 @@
 @media screen and (max-width: 320px) {
     .place__title {
         font-size: 32px;
-        line-height: 1.09px;
-        padding-left: 16px;
+        line-height: 1.09;
         align-self: center;
     }
 }

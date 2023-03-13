@@ -30,6 +30,5 @@ align-self: end;
     .place__website{
         align-self: start;
         max-width: 288px;
-        padding-left: 16px;
     }
 }
