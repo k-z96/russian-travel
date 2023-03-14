@@ -1,4 +1,4 @@
-.header__lang-link-active{
+.header__lang-link_active{
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -9,13 +9,13 @@
     text-decoration: none;
 }
 
-.header__lang-link-active:hover{
+.header__lang-link_active:hover{
     opacity: 0.8;
     transition: 0.5s;
 } 
 
 @media screen and (max-width: 320px){
-    .header__lang-link-active{
+    .header__lang-link_active{
         font-size: 18px;
         line-height: 20px;
     }
